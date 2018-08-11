@@ -243,3 +243,265 @@ textarea {
     
     color:white;
 }
+
+
+
+@media only screen and (max-width: 800px) {
+      
+
+
+
+@media only screen and (max-width: 600px) {
+   body {
+    margin: 0;
+    background-image: url("images/background.png") 
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background: #ffffff;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.name {
+    text-align: center;
+    width:100%;
+    padding: 10px 0;
+    background-color:#4aaaa5;
+    padding: 15px 15px 15px 15px;
+    color:white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+nav {
+    
+    margin: auto;
+}
+
+nav ul {
+    margin: 0px 150px 0px 150px;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 15px;
+    position: relative;
+   
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    
+
+    position: absolute;
+    top: 0;
+    width: 0%; 
+
+   
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.main {
+    width: 360px;
+    height: 200%;
+    background-color: white;
+    margin: auto;
+    font-size: 20px;
+    padding: 0px 15px 15px 15px;
+}
+
+
+
+.main p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    
+}
+
+.main h1 {
+    color:#4aaaa5;
+    padding: 15px 15px 1px 1px;
+}
+
+#profile {
+    height: 250px;
+    width: 250px;
+    float: left;
+    padding: 15px 15px 15px 15px;
+}
+
+input[type=text], select {
+    width:330px;
+    margin: 10px;
+    display:inline-block;  
+    
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#4aaaa5; 
+    border:0 none;
+    color:white;
+    margin-left: 10px;
+    
+}
+
+label {
+    float: left;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#computer {
+    height: 120px;
+    width: 195px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+  position: absolute;
+}
+
+#computerdiv {
+    height: 40px;
+    width: 195px;
+    float: left;
+    margin: 80px 10px 10px 10px;
+  position: absolute;
+  background: #4aaaa5;
+  text-align: center;
+  color:white;
+  padding:5px 0px 0px 0px;
+}
+
+#earphonediv {
+    height: 40px;
+    width: 195px;
+    float: left;
+    margin: 220px 10px 10px 10px;
+  position: absolute;
+  background: #4aaaa5;
+  text-align: center;
+  color:white;
+  padding:5px 0px 0px 0px;
+}
+
+#rpgdiv {
+    height: 40px;
+    width: 195px;
+    float: left;
+    margin: 360px 10px 10px 10px;
+  position: absolute;
+  background: #4aaaa5;
+  text-align: center;
+  color:white;
+  padding:5px 0px 0px 0px;
+}
+#earphone {
+    height: 120px;
+    width: 195px;
+    float: left;
+    margin: 150px 10px 10px 10px;
+  position: absolute;
+    
+}
+
+#rpg {
+    height: 120px;
+    width: 195px;
+    float: left;
+    margin: 290px 10px 10px 10px;
+  position: absolute;
+
+}
+
+#ipad {
+    height: 120px;
+    width: 195px;
+    float: left;
+    margin: 430px 10px 10px 10px;
+    position: absolute;
+   
+}
+#ipaddiv {
+    height: 40px;
+    width: 195px;
+    float: left;
+    margin: 500px 10px 10px 10px;
+  position: absolute;
+  background: #4aaaa5;
+  text-align: center;
+  color:white;
+  padding:5px 0px 0px 0px;
+}
+
+#tvdiv {
+    height: 40px;
+    width: 195px;
+    float: left;
+    margin: 640px 10px 10px 10px;
+  position: absolute;
+  background: #4aaaa5;
+  text-align: center;
+  color:white;
+  padding:5px 0px 0px 0px;
+}
+#tv {
+    height: 120px;
+    width: 195px;
+    float: left;
+    margin: 570px 10px 10px 10px;
+    position: absolute;
+   
+}
+
+textarea {
+    height: 200px;
+    width: 330px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+
+.footer {
+   
+    text-align: center;
+    width: 100%;
+    background-color: #666666;  
+    position: absolute;
+    margin: 100px 0px 0px 0px;
+    border-top: 4px solid #4aaaa5;
+    
+    
+    color:white;
+}
